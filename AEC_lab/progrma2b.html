@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program2b</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var n=prompt("enter an number:");
+        if (n!=null && n>0)
+        {
+            document.write("<h1>The first "+n+" numbers and their squares are:</h1>")
+            document.write("<table border=1><tr><th>numbers</th><th>squares</th></tr>")
+            for(i=1;i<=n;i++)
+            {
+                document.write("<tr><td>"+i+"</td><td>"+i*i+"</td></tr>")
+            }
+            document.write("</table>");
+        }
+        else
+        alert("no proper input");
+    </script>
+</body>
+</html>

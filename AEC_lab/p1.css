@@ -1,0 +1,22 @@
+
+body{
+    background-color:rgb(200,255,205);
+}
+table{
+    background-color: rgb(100,225,105);
+    margin-left:10px;
+}
+th,td{
+    text-align:center;
+    padding: 15px;
+}
+h2,h3{
+    color:blue;
+}
+span{
+    color:blue;
+    background-color:pink;
+    font-size:35px;
+    font-style:italic;
+    font-weight:bold;
+}

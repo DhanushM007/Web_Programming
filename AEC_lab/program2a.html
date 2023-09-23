@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program 2a</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var n=prompt("enter a number");
+        var fib1=0,fib2=1,fib;
+        if (n!=null && n>0)
+        {
+            
+            document.write("<h1>The first "+n+" fibonacci numbers are:</h1>");
+            if(n==1)
+            {
+                document.write("<h1>"+fib1+"</h1>");
+            }
+            else
+            {
+                document.write("<h1>"+fib1+"</h1><h1>"+fib2+"</h2>");
+                for(i=3;i<=n;i++)
+                {
+                    fib=fib1+fib2;
+                    document.write("<h1>"+fib+"</h2>");
+                    fib1=fib2;
+                    fib2=fib;
+                }
+            }
+        }
+        else
+        alert("No proper input")
+    </script>    
+</body>
+</html>
